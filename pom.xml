@@ -149,11 +149,14 @@
                         </path>
                     </annotationProcessorPaths>
                     <annotationProcessors>
-                        <annotationProcessor>
+                       <!-- <annotationProcessor>
                             lombok.launch.AnnotationProcessorHider$AnnotationProcessor
-                        </annotationProcessor>
+                        </annotationProcessor> 
                         <annotationProcessor>
                             org.checkerframework.checker.nullness.NullnessChecker
+                        </annotationProcessor>--> 
+                        <annotationProcessor>
+                            org.checkerframework.common.util.count.AnnotationStatistics
                         </annotationProcessor>
                     </annotationProcessors>
                     <compilerArgs combine.children="append">
@@ -165,10 +168,14 @@
                         <arg>-J--add-exports=jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED</arg>
                         <arg>-J--add-exports=jdk.compiler/com.sun.tools.javac.model=ALL-UNNAMED</arg>
                         <arg>-J--add-exports=jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
+                        <arg>-J--add-exports=jdk.compiler/com.sun.tools.javac.processingEnviornment=ALL-UNNAMED</arg>
                         <arg>-J--add-exports=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED</arg>
                         <arg>-J--add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED</arg>
                         <arg>-J--add-opens=jdk.compiler/com.sun.tools.javac.comp=ALL-UNNAMED</arg>
+                        <arg>-Aannotations</arg>
+                        <arg>-Anolocations</arg>
                     </compilerArgs>
+                    <showWarnings>true</showWarnings> 
                 </configuration>
             </plugin>
             <plugin>

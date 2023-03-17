@@ -39,19 +39,19 @@ public class CsvCellDataAccessObject implements CellDataAccessObject<String, Csv
     private final InstantParser instantParser;
 
     @Override
-    public @Nullable String getCell(CsvTableRow row, Integer cellIndex) {
+    public String getCell(CsvTableRow row, Integer cellIndex) {
         //noinspection ConstantConditions
         return (cellIndex == null) ? null : row.getCellValue(cellIndex);
     }
 
     @Override
-    public @Nullable String getValue(@Nullable String cell) {
+    public String getValue(String cell) {
         return cell;
     }
 
     @Override
-    public Instant getInstantValue(@Nullable String cell) {
-        @Nullable String value = getValue(cell);
+    public Instant getInstantValue(String cell) {
+        String value = getValue(cell);
         @SuppressWarnings("nullness")
         String nonNullValue = requireNonNull(value, "Not an instant");
         return instantParser.parseInstant(nonNullValue);

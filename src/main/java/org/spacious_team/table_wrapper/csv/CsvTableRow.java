@@ -42,7 +42,6 @@ public class CsvTableRow extends AbstractReportPageRow {
     }
 
     @Override
-    @Nullable
     public TableCell getCell(int i) {
         if (i < 0 || i >= row.length) {
             return null;
@@ -55,7 +54,6 @@ public class CsvTableRow extends AbstractReportPageRow {
         return cell;
     }
 
-    @Nullable
     String getCellValue(int i) {
         return (i < 0 || i >= row.length) ? null : row[i];
     }
@@ -76,15 +74,14 @@ public class CsvTableRow extends AbstractReportPageRow {
     }
 
     @Override
-    public Iterator<@Nullable TableCell> iterator() {
-        return new Iterator<@Nullable TableCell>() {
+    public Iterator<TableCell> iterator() {
+        return new Iterator<TableCell>() {
             private int cellIndex = 0;
             @Override
             public boolean hasNext() {
                 return cellIndex < row.length;
             }
             @Override
-            @Nullable
             public TableCell next() {
                 if (hasNext()) {
                     return getCell(cellIndex++);

@@ -32,12 +32,10 @@ public class CsvTableCell extends AbstractTableCell<String> {
     }
 
     public static TableCell of(String[] row, int columnIndex, CsvCellDataAccessObject dao) {
-        @Nullable
         String cellValue = getCellValue(row, columnIndex);
         return cellValue == null ? EmptyTableCell.of(columnIndex) : new CsvTableCell(cellValue, columnIndex, dao);
     }
 
-    @Nullable
     private static String getCellValue(String[] row, int columnIndex) {
         return (columnIndex >= 0) && (columnIndex < row.length) ? row[columnIndex] : null;
     }

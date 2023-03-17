@@ -135,7 +135,7 @@ class CsvTableRowTest {
         @SuppressWarnings("ConstantConditions")
         String[] row = new String[]{null, "1"};
         CsvTableRow csvTableRow = CsvTableRow.of(row, 0);
-        Iterator<@Nullable TableCell> it = csvTableRow.iterator();
+        Iterator<TableCell> it = csvTableRow.iterator();
         //noinspection ConstantConditions
         assertNull(it.next().getValue());
         //noinspection ConstantConditions

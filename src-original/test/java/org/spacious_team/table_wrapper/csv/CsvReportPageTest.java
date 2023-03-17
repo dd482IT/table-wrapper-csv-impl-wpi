@@ -45,7 +45,7 @@ class CsvReportPageTest {
         CsvReportPage reportPage = new CsvReportPage(is, charset, CsvReportPage.getDefaultCsvParserSettings());
 
         //noinspection ConstantConditions
-        @Nullable Object actual = reportPage.getRow(0)
+        Object actual = reportPage.getRow(0)
                 .getCell(0)
                 .getValue();
 

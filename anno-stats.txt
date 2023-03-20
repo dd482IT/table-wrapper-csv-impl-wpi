@@ -1,0 +1,286 @@
+@Pure:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.005401 seconds spent searching
+0.008641 seconds
+@org.checkerframework.dataflow.qual.Pure:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.007441 seconds spent searching
+0.004439 seconds
+@SideEffectFree:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000077 seconds spent searching
+0.002957 seconds
+org.checkerframework.dataflow.qual.SideEffectFree:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.012695 seconds spent searching
+0.005070 seconds
+@Deterministic:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000082 seconds spent searching
+0.002805 seconds
+@org.checkerframework.dataflow.qual.Deterministic:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.004718 seconds spent searching
+0.003644 seconds
+@RequiresQualifier:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000064 seconds spent searching
+0.002686 seconds
+@org.checkerframework.framework.qual.RequiresQualifier:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000076 seconds spent searching
+0.003315 seconds
+@EnsulresQualifer:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000065 seconds spent searching
+0.002421 seconds
+@org.checkerframework.framework.qual.EnsulresQualifer:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000065 seconds spent searching
+0.003482 seconds
+@RequiresQualifierIf:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000063 seconds spent searching
+0.002530 seconds
+@org.checkerframework.framework.qual.RequiresQualifierIf:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000059 seconds spent searching
+0.002500 seconds
+@EnsuresQualiferIf:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000064 seconds spent searching
+0.003481 seconds
+@org.checkerframework.framework.qual.EnsuresQualiferIf:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000064 seconds spent searching
+0.002332 seconds
+@Nullable:
+src/main/java/org/spacious_team/table_wrapper/csv/CsvTableCell.java:2
+src/main/java/org/spacious_team/table_wrapper/csv/CsvTableRow.java:5
+src/main/java/org/spacious_team/table_wrapper/csv/CsvCellDataAccessObject.java:5
+src/test/java/org/spacious_team/table_wrapper/csv/CsvTableRowTest.java:1
+src/test/java/org/spacious_team/table_wrapper/csv/CsvReportPageTest.java:1
+src/main/java/org/spacious_team/table_wrapper/csv/CsvReportPage.java:1
+
+15 matches
+15 matched lines
+6 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.002532 seconds spent searching
+0.002884 seconds
+@org.checkerframework.checker.nullness.qual.Nullable:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.005090 seconds spent searching
+0.003282 seconds
+@NonNull:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000067 seconds spent searching
+0.002417 seconds
+@org.checkerframework.checker.nullness.qual.NonNull:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.004043 seconds spent searching
+0.003099 seconds
+@PolyNull:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000067 seconds spent searching
+0.002365 seconds
+@org.checkerframework.checker.nullness.qual.PolyNull:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.004264 seconds spent searching
+0.003281 seconds
+@MonotonicNonNull:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000085 seconds spent searching
+0.002424 seconds
+@org.checkerframework.checker.nullness.qual.MonotonicNonNull:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000073 seconds spent searching
+0.003199 seconds
+@RequiresNonNull:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000064 seconds spent searching
+0.002379 seconds
+@org.checkerframework.checker.nullness.qual.RequiresNonNull:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.004324 seconds spent searching
+0.003270 seconds
+@EnsuresNonNull:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000060 seconds spent searching
+0.002363 seconds
+@org.checkerframework.checker.nullness.qual.EnsuresNonNull:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.004191 seconds spent searching
+0.003096 seconds
+@EnsuresNonNullIf:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000066 seconds spent searching
+0.003615 seconds
+@org.checkerframework.checker.nullness.qual.EnsuresNonNullIf:
+
+0 matches
+0 matched lines
+0 files contained matches
+15 files searched
+0 bytes printed
+53853 bytes searched
+0.000055 seconds spent searching
+0.003461 seconds

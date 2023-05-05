@@ -1,15 +1,15 @@
-[WARNING] /Users/daniel/Documents/njit/WPI-Research/experiments-live/table-wrapper-csv-impl-wpi/src/main/java/org/spacious_team/table_wrapper/csv/CsvTableRow.java:[58,44] [nullness:conditional] incompatible types in conditional expression.
+[WARNING] /Users/daniel/Documents/NJIT/WPI-Research/experiments-live/table-wrapper-csv-impl-wpi/src/main/java/org/spacious_team/table_wrapper/csv/CsvTableCell.java:[40,85] [nullness:conditional] incompatible types in conditional expression.
   found   : null (NullType)
   required: @Initialized @NonNull String
-[WARNING] /Users/daniel/Documents/njit/WPI-Research/experiments-live/table-wrapper-csv-impl-wpi/src/main/java/org/spacious_team/table_wrapper/csv/CsvTableRow.java:[87,34] [nullness:return] incompatible types in return.
+[WARNING] /Users/daniel/Documents/NJIT/WPI-Research/experiments-live/table-wrapper-csv-impl-wpi/src/main/java/org/spacious_team/table_wrapper/csv/CsvCellDataAccessObject.java:[35,37] [nullness:conditional] incompatible types in conditional expression.
+  found   : null (NullType)
+  required: @Initialized @NonNull String
+[WARNING] /Users/daniel/Documents/NJIT/WPI-Research/experiments-live/table-wrapper-csv-impl-wpi/src/main/java/org/spacious_team/table_wrapper/csv/CsvTableRow.java:[58,44] [nullness:conditional] incompatible types in conditional expression.
+  found   : null (NullType)
+  required: @Initialized @NonNull String
+[WARNING] /Users/daniel/Documents/NJIT/WPI-Research/experiments-live/table-wrapper-csv-impl-wpi/src/main/java/org/spacious_team/table_wrapper/csv/CsvTableRow.java:[87,34] [nullness:return] incompatible types in return.
   type of expression: @Initialized @Nullable TableCell
   method return type: @Initialized @NonNull TableCell
-[WARNING] /Users/daniel/Documents/njit/WPI-Research/experiments-live/table-wrapper-csv-impl-wpi/src/main/java/org/spacious_team/table_wrapper/csv/CsvTableCell.java:[40,85] [nullness:conditional] incompatible types in conditional expression.
-  found   : null (NullType)
-  required: @Initialized @NonNull String
-[WARNING] /Users/daniel/Documents/njit/WPI-Research/experiments-live/table-wrapper-csv-impl-wpi/src/main/java/org/spacious_team/table_wrapper/csv/CsvCellDataAccessObject.java:[35,37] [nullness:conditional] incompatible types in conditional expression.
-  found   : null (NullType)
-  required: @Initialized @NonNull String
-[WARNING] /Users/daniel/Documents/njit/WPI-Research/experiments-live/table-wrapper-csv-impl-wpi/src/main/java/org/spacious_team/table_wrapper/csv/CsvReportPage.java:[89,45] [nullness:conditional] incompatible types in conditional expression.
+[WARNING] /Users/daniel/Documents/NJIT/WPI-Research/experiments-live/table-wrapper-csv-impl-wpi/src/main/java/org/spacious_team/table_wrapper/csv/CsvReportPage.java:[89,45] [nullness:conditional] incompatible types in conditional expression.
   found   : null (NullType)
   required: @Initialized @NonNull CsvTableRow
